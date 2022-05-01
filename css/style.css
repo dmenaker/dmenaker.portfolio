@@ -1,0 +1,250 @@
+#maptitle {
+    background-color: #595551;
+    vertical-align: middle;
+    border-style: solid;
+    border-color: #353839;
+}
+
+#mapT {
+    padding: 0.5px;
+    text-align: center;
+    margin: 0em;
+    color: #FFFFFF;
+    font-size: 2.5em;
+    text-shadow: 1.5px 1.5px #727472;
+    font-family: Arvo; 
+    font-style: normal; 
+    font-variant: small-caps;
+    font-weight: 700; 
+    line-height: 35px; 
+    
+}
+
+.leaflet-popup-content p {
+    margin: 0.2em;
+}
+
+#map {
+    height: 100%;
+    transition: 0.5s;
+}
+.leaflet-control-slidemenu{
+    cursor: pointer;
+}
+
+.leaflet-menu{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 255);
+    overflow: auto;
+    cursor: default;
+    z-index: 9999;
+}
+
+.leaflet-menu::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+    background: #f2f2f2;
+}
+
+.leaflet-menu::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+    background: #777;   
+}
+
+.leaflet-menu-close-button{
+    background-color: transparent;
+    border: none;
+    font-size: 14pt;
+    color: #777;
+    cursor: pointer;
+}
+
+.leaflet-menu-close-button:hover{
+    color: #4285F4;
+}
+
+
+
+
+/*
+#maptitle {
+    background-color: #595551;
+    vertical-align: middle;
+    border-style: solid;
+    border-color: #353839;
+}
+
+#mapT {
+    padding: 12.5px;
+    text-align: center;
+    margin: 0em;
+    color: #FFFFFF;
+    font-size: 2.5em;
+    text-shadow: 1.5px 1.5px #727472;
+    font-family: Arvo; 
+    font-style: normal; 
+    font-variant: small-caps;
+    font-weight: 700; 
+    line-height: 65px; 
+    
+}
+
+.leaflet-popup-content p {
+    margin: 0.2em;
+}
+
+#mapid {
+    height: 800px;
+    width: 100%;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.leaflet-bottom.leaflet-left .legend-control-container.leaflet-control {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    background-color: #848482;
+    border-style: solid;
+    border-color: #353839;
+    margin-bottom: 26px;
+}
+
+
+.sequence-control-container.leaflet-control{
+    text-align: center;
+    vertical-align: bottom;
+    background-color: #595551;
+    border-style: solid;
+    border-color: #353839;
+    color: #fffe03;
+    font-family: Arvo; 
+    font-style: normal;
+    font-size: 14px;
+}
+
+#attribute-legend {
+    padding-left: 10px;
+    padding-top: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#temporal-legend {
+    width: auto;
+    height: 30%;
+    margin: 4px;
+    text-align: center;
+    color: #E5E4E2;
+    font-family:"palatino","bookman";
+    font-size: 1.2em;
+    text-shadow: 1.5px 1.5px #727472; 
+}
+
+#forward {
+    float: right;
+    background-color:  #afabac;
+    border-color: transparent;
+}
+
+#forward:hover{
+    background-color:#E5E4E2;
+}
+
+#reverse {
+    float:left;
+    background-color:  #afabac;
+    border-color: transparent;
+}
+
+#reverse:hover{
+    background-color:#E5E4E2;
+}
+
+.range-slider {
+    width: 100px;
+    vertical-align: bottom;
+}
+
+.year {
+    vertical-align: bottom;
+    margin: 5px 0 0 2px;
+}
+
+.info {
+    background-color: #afabac;
+    float: right;
+    margin-right: 16px;
+}
+
+.info:hover {
+    background-color:#E5E4E2;
+}
+
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-resizable {
+    z-index: 1000;
+}
+
+.legend {
+    padding: 6px 8px;
+    font: 14px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 1);
+    line-height: 24px;
+    color: #555;
+}
+
+.legend text{
+    text-align: right;
+    font-size: 13px;
+    color: #353839;
+    
+}
+
+.legend h4{
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 12px 8px;
+    color: #595551;
+    font-style: normal; 
+    font-variant: small-caps;
+    font-weight: 550; 
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+
+.legend span {
+    position: right;
+    bottom: 3px;
+    color: #595551;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin: 2px 8px 0 0;
+  opacity: 1;
+}
+
+.legend i.icon {
+  background-size: 18px;
+  background-color: rgba(255, 255, 255, 1);
+
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+#my_dataviz .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+}*/
